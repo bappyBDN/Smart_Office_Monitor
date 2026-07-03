@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Office Monitor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <header class="app-header">
+            <div class="brand">
+                <span class="brand-eyebrow">Live Office Telemetry</span>
+                <h1 class="brand-title">Smart Office Monitor</h1>
+                <div class="conn-status" id="conn-status">
+                    <span class="conn-dot"></span>
+                    <span id="conn-status-text">Connecting…</span>
+                </div>
+            </div>
+
+            <div class="header-readouts">
+                <div class="readout">
+                    <span class="readout-label">Total Power</span>
+                    <span class="readout-value" id="total-power">0 <small>W</small></span>
+                </div>
+                <div class="readout readout-cost">
+                    <span class="readout-label">Estimated Cost</span>
+                    <span class="readout-value" id="total-cost">0.00 <small>Tk/hr</small></span>
+                </div>
+            </div>
+
+            <div class="rate-note">Rate: 12.73 Tk/kWh (Small Industry — LT-C). Excludes demand charge, meter rent
+                &amp; 5% VAT.</div>
+        </header>
+
+        <div class="app-body">
+
+            <aside class="sidebar">
+
+                <section class="panel-block">
+                    <h2 class="panel-title">Room Usage</h2>
+                    <div id="room-summary" class="room-list"></div>
+                </section>
+
+                <section class="panel-block alerts-block" id="alerts-panel">
+                    <h2 class="panel-title panel-title-alert">Active Alerts</h2>
+                    <div id="alerts-list" class="alert-list"></div>
+                    <p class="no-alerts" id="no-alerts">All systems nominal. No alerts.</p>
+                </section>
+
+            </aside>
+
+            <main class="dashboard-wrapper">
+                <div class="office-layout-container" id="office-layout">
+                    <img src="Screenshot 2026-07-04 005426.png" alt="Office Layout" class="layout-bg">
+                    <div id="dynamic-devices"></div>
+                </div>
+            </main>
+
+        </div>
+
+        <footer class="app-footer">
+            <span>Smart Office Monitor</span>
+            <span class="footer-dot">·</span>
+            <span>Data refreshes every 2s</span>
+            <span class="footer-dot">·</span>
+            <span>Rate: 12.73 Tk/kWh</span>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
