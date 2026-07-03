@@ -1,0 +1,137 @@
+[
+    {
+        "id": "DR_F1",
+        "name": "Fan 1",
+        "room": "Drawing Room",
+        "type": "Fan",
+        "status": "ON",
+        "power_draw": 60,
+        "last_changed": "2026-07-04T03:42:21.500789"
+    },
+    {
+        "id": "DR_F2",
+        "name": "Fan 2",
+        "room": "Drawing Room",
+        "type": "Fan",
+        "status": "OFF",
+        "power_draw": 60,
+        "last_changed": "2026-07-04T03:37:41.284151"
+    },
+    {
+        "id": "DR_L1",
+        "name": "Light 1",
+        "room": "Drawing Room",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T03:04:33.232036"
+    },
+    {
+        "id": "DR_L2",
+        "name": "Light 2",
+        "room": "Drawing Room",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T02:53:51.632744"
+    },
+    {
+        "id": "DR_L3",
+        "name": "Light 3",
+        "room": "Drawing Room",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T03:00:33.075406"
+    },
+    {
+        "id": "WR1_F1",
+        "name": "Fan 1",
+        "room": "Work Room 1",
+        "type": "Fan",
+        "status": "OFF",
+        "power_draw": 60,
+        "last_changed": "2026-07-04T03:11:29.846858"
+    },
+    {
+        "id": "WR1_F2",
+        "name": "Fan 2",
+        "room": "Work Room 1",
+        "type": "Fan",
+        "status": "OFF",
+        "power_draw": 60,
+        "last_changed": "2026-07-04T03:40:21.384055"
+    },
+    {
+        "id": "WR1_L1",
+        "name": "Light 1",
+        "room": "Work Room 1",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T03:29:40.464012"
+    },
+    {
+        "id": "WR1_L2",
+        "name": "Light 2",
+        "room": "Work Room 1",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T03:23:00.358834"
+    },
+    {
+        "id": "WR1_L3",
+        "name": "Light 3",
+        "room": "Work Room 1",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T03:20:20.319316"
+    },
+    {
+        "id": "WR2_F1",
+        "name": "Fan 1",
+        "room": "Work Room 2",
+        "type": "Fan",
+        "status": "OFF",
+        "power_draw": 60,
+        "last_changed": "2026-07-04T02:58:32.697057"
+    },
+    {
+        "id": "WR2_F2",
+        "name": "Fan 2",
+        "room": "Work Room 2",
+        "type": "Fan",
+        "status": "OFF",
+        "power_draw": 60,
+        "last_changed": "2026-07-04T03:29:40.464012"
+    },
+    {
+        "id": "WR2_L1",
+        "name": "Light 1",
+        "room": "Work Room 2",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T02:54:31.945407"
+    },
+    {
+        "id": "WR2_L2",
+        "name": "Light 2",
+        "room": "Work Room 2",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T01:26:50.939818"
+    },
+    {
+        "id": "WR2_L3",
+        "name": "Light 3",
+        "room": "Work Room 2",
+        "type": "Light",
+        "status": "OFF",
+        "power_draw": 15,
+        "last_changed": "2026-07-04T03:43:41.539012"
+    }
+]
