@@ -4,9 +4,9 @@
         "name": "Fan 1",
         "room": "Drawing Room",
         "type": "Fan",
-        "status": "ON",
+        "status": "OFF",
         "power_draw": 60,
-        "last_changed": "2026-07-04T03:42:21.500789"
+        "last_changed": "2026-07-04T03:47:01.636145"
     },
     {
         "id": "DR_F2",
@@ -76,9 +76,9 @@
         "name": "Light 2",
         "room": "Work Room 1",
         "type": "Light",
-        "status": "OFF",
+        "status": "ON",
         "power_draw": 15,
-        "last_changed": "2026-07-04T03:23:00.358834"
+        "last_changed": "2026-07-04T04:00:22.467277"
     },
     {
         "id": "WR1_L3",
@@ -94,9 +94,9 @@
         "name": "Fan 1",
         "room": "Work Room 2",
         "type": "Fan",
-        "status": "OFF",
+        "status": "ON",
         "power_draw": 60,
-        "last_changed": "2026-07-04T02:58:32.697057"
+        "last_changed": "2026-07-04T03:58:22.274297"
     },
     {
         "id": "WR2_F2",
@@ -132,6 +132,6 @@
         "type": "Light",
         "status": "OFF",
         "power_draw": 15,
-        "last_changed": "2026-07-04T03:43:41.539012"
+        "last_changed": "2026-07-04T04:02:22.960778"
     }
 ]
