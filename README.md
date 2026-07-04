@@ -274,7 +274,7 @@ This part uses Gemini AI to convert system data into simple and natural language
 
 ### 1. Web Dashboard
 
-![Dashboard](screenshots/dashbroad.png)
+![Dashboard](dashbroad.png)
 
 Use this screenshot to show the main dashboard with device status, power usage, and room summary.
 
