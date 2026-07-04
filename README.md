@@ -534,21 +534,21 @@ The project combines IoT-ready data flow, backend processing, web dashboard, Dis
 
 ## Author
 
-### Partha Sarker
+## Partha Sarker
 partha.cse.20210204072@aust.edu
 
-### Bappy Chandra Debnath
+## Bappy Chandra Debnath
 bappy.cse.20210204074@aust.edu
 
-### Md. Luthful Hasan Galib
+## Md. Luthful Hasan Galib
 luthful.cse.20210204081@aust.edu
 
-### Mobarak Hossan Refat
+## Mobarak Hossan Refat
 mobarak.cse.20210204085@aust.edu
 
 
 
 
-Developed by: Team_Zero
+## Developed by: Team_Zero
 
-## THANK YOU
+## THANK YOU 
