@@ -15,6 +15,11 @@ This project helps users see which devices are ON or OFF, monitor current power 
     <img src="https://img.shields.io/badge/▶%20Watch%20Demo%20Video-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo Video">
   </a>
 </p>
+<p align="center">
+  <a href="https://youtu.be/G_YasilfTBQ">
+    <img src="https://img.youtube.com/vi/G_YasilfTBQ/maxresdefault.jpg" alt="Smart Office Demo Video" width="850">
+  </a>
+</p>
 
 
 
@@ -63,11 +68,6 @@ The simulation uses the Servo library for controlling the servo motors.
   </a>
 </p>
 
-<p align="center">
-  <a href="https://wokwi.com/projects/468609762088143873">
-    <img src="screenshots/wokwi-circuit.png" alt="Wokwi Circuit Simulation" width="850">
-  </a>
-</p>
 
 
 ## What This Project Does
@@ -540,9 +540,6 @@ The project combines IoT-ready data flow, backend processing, web dashboard, Dis
 
 ## Author
 
-## Partha Sarker
-partha.cse.20210204072@aust.edu
-
 ## Bappy Chandra Debnath
 bappy.cse.20210204074@aust.edu
 
@@ -552,7 +549,8 @@ luthful.cse.20210204081@aust.edu
 ## Mobarak Hossan Refat
 mobarak.cse.20210204085@aust.edu
 
-
+## Partha Sarker
+partha.cse.20210204072@aust.edu
 
 
 ## Developed by: Team_Zero
