@@ -282,7 +282,7 @@ Use this screenshot to show the main dashboard with device status, power usage, 
 
 ### 3. Device Status
 
-![Device Status](screenshots/device-status.png)
+![Device Status](device.png)
 
 Use this screenshot to show lights and fans in ON/OFF condition.
 
