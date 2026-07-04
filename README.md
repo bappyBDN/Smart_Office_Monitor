@@ -553,7 +553,7 @@ ALERT_CHANNEL_ID=YOUR_DISCORD_CHANNEL_ID
 
 The `start.sh` script runs the Discord Bot in the background and starts the FastAPI server.
 
----
+
 
 ### Frontend Deployment
 
