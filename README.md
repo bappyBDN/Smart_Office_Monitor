@@ -20,7 +20,37 @@ Add your demo video link here:
 
 This image shows the complete process of the system, from IoT-ready data collection to dashboard monitoring and Discord AI response.
 
+## Hardware Simulation with Wokwi
 
+This project also includes a Wokwi-based hardware simulation to show how the smart building system can work with real IoT devices.
+
+In this simulation, an Arduino Uno is connected with LEDs, a relay module, and servo motors. The LEDs can represent device status, the relay can be used for switching electrical appliances, and the servo motors can represent automated control actions such as opening or closing a door/ventilation system.
+
+![Wokwi Circuit Diagram](wokwi/workwi-ckt.png)
+
+### Components Used
+
+- Arduino Uno
+- 3 LEDs: Red, Green, Blue
+- 3 Resistors: 220Ω
+- Relay Module
+- 2 Servo Motors
+- Jumper Wires
+
+### Pin Connection Summary
+
+- Red LED connected to Arduino pin 2
+- Relay module connected to Arduino pin 3
+- Green LED connected to Arduino pin 4
+- Blue LED connected to Arduino pin 5
+- Servo Motor 1 connected to Arduino pin 9
+- Servo Motor 2 connected to Arduino pin 10
+
+The simulation uses the Servo library for controlling the servo motors.  
+
+### Wokwi Simulation Link
+
+[Run the Wokwi Simulation](https://wokwi.com/projects/468571882006007809](https://wokwi.com/projects/468571882006007809))
 
 ## What This Project Does
 
