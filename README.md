@@ -4,7 +4,7 @@ A simple real-time system for monitoring and controlling office lights and fans.
 
 This project helps users see which devices are ON or OFF, monitor current power usage, control devices from a dashboard, and receive smart alerts through a Discord AI bot.
 
----
+
 
 ## Demo Video
 
@@ -12,7 +12,7 @@ Add your demo video link here:
 
 [Watch Demo Video](YOUR_DEMO_VIDEO_LINK_HERE)
 
----
+
 
 ## Full System Workflow
 
@@ -20,7 +20,7 @@ Add your demo video link here:
 
 This image shows the complete process of the system, from IoT-ready data collection to dashboard monitoring and Discord AI response.
 
----
+
 
 ## What This Project Does
 
@@ -37,7 +37,7 @@ It can:
 - Send alerts when devices are left ON after office hours or running for a long time
 - Reply to users through a Discord AI bot
 
----
+
 
 ## Main Idea
 
@@ -53,7 +53,7 @@ Users can quickly understand:
 - Whether any alert has been generated
 - How much power is currently being used
 
----
+
 
 ## How the System Works
 
@@ -67,7 +67,7 @@ In real life, this data can come from devices like ESP32 or Wokwi simulation.
 
 For the demo version, a simulator creates realistic device activity.
 
----
+
 
 ### Step 2: Data Storage
 
@@ -84,7 +84,7 @@ The stored information includes:
 
 This works like the main memory of the system.
 
----
+
 
 ### Step 3: Backend Processing
 
@@ -94,7 +94,7 @@ It receives requests, reads device information, updates device status, checks al
 
 The backend also makes sure data is handled safely when multiple parts of the system are working at the same time.
 
----
+
 
 ### Step 4: Web Dashboard
 
@@ -111,7 +111,7 @@ Users can see:
 
 Users can also click on a fan or light to turn it ON or OFF.
 
----
+
 
 ### Step 5: Discord AI Bot
 
@@ -126,7 +126,7 @@ The bot can answer questions like:
 
 Gemini AI converts system data into short, natural, and easy-to-understand replies.
 
----
+
 
 ## Important Features
 
@@ -134,7 +134,7 @@ Gemini AI converts system data into short, natural, and easy-to-understand repli
 
 The system updates automatically after a short time, so the user does not need to refresh the page again and again.
 
----
+
 
 ### Manual Control
 
@@ -142,7 +142,7 @@ Users can control lights and fans directly from the dashboard.
 
 This makes the system more practical and interactive.
 
----
+
 
 ### Power Usage Calculation
 
@@ -150,7 +150,7 @@ The system calculates how much power is being used based on the devices that are
 
 This helps users understand electricity consumption clearly.
 
----
+
 
 ### Room-Wise Summary
 
@@ -158,7 +158,7 @@ The dashboard shows power usage room by room.
 
 This helps users quickly identify which room is using more electricity.
 
----
+
 
 ### Smart Alerts
 
@@ -171,7 +171,7 @@ For example:
 
 This helps users identify unnecessary electricity usage.
 
----
+
 
 ### AI-Based Discord Reply
 
@@ -179,7 +179,7 @@ The Discord bot does not only show raw data.
 
 It gives short, friendly, and human-like replies so that anyone can understand the building status easily.
 
----
+
 
 ## Benefits of This Project
 
@@ -194,7 +194,7 @@ This project can help to:
 - Help non-technical users understand device status
 - Demonstrate an IoT-ready architecture using a web dashboard, backend, and AI
 
----
+
 
 ## Who Can Use This System
 
@@ -209,7 +209,7 @@ This system can be useful for:
 - Research projects
 - IoT-based automation demos
 
----
+
 
 ## Technologies Used
 
@@ -222,7 +222,7 @@ This system can be useful for:
 - Google Gemini 2.5 Flash
 - JSON data storage
 
----
+
 
 ## Main Parts of the Project
 
@@ -238,7 +238,7 @@ It keeps track of:
 - Power usage
 - Last update time
 
----
+
 
 ### 2. Backend Layer
 
@@ -246,7 +246,7 @@ This part processes all requests.
 
 It connects the data layer with the dashboard and Discord bot.
 
----
+
 
 ### 3. Dashboard Layer
 
@@ -254,7 +254,6 @@ This is the visual part of the project.
 
 Users can monitor and control the system from here.
 
----
 
 ### 4. Discord Bot Layer
 
@@ -262,29 +261,20 @@ This part allows users to get updates from Discord.
 
 It also sends alert messages when needed.
 
----
+
 
 ### 5. Gemini AI Layer
 
 This part uses Gemini AI to convert system data into simple and natural language replies.
 
----
+
 
 ## Screenshots
 
-Add your screenshots in a folder named `screenshots`.
 
-### 1. Full Workflow Diagram
+### 1. Web Dashboard
 
-![Full Workflow](screenshots/full-workflow.png)
-
-Use this screenshot to show the complete system process.
-
----
-
-### 2. Web Dashboard
-
-![Dashboard](screenshots/dashboard-main.png)
+![Dashboard](screenshots/2no.)
 
 Use this screenshot to show the main dashboard with device status, power usage, and room summary.
 
