@@ -512,7 +512,52 @@ To ensure the project is running correctly:
 -  Smart alerts are generated after office hours.
 -  Wokwi hardware simulation operates correctly.
 
+## Deployment
 
+The project is deployed online. The **FastAPI backend** and **Discord Bot** run on Render, while the **frontend dashboard** is hosted on GitHub Pages.
+
+### Live Links
+
+- **Frontend Dashboard:** [Insert your GitHub Pages link here]
+- **Backend API:** https://smart-office-monitor-d41y.onrender.com
+
+
+
+### Backend & Bot Deployment
+
+The backend and Discord Bot are deployed together on **Render** using a custom `start.sh` script.
+
+```bash
+Build Command: pip install -r requirements.txt
+Start Command: bash start.sh
+```
+
+Required environment variables:
+
+```env
+DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+ALERT_CHANNEL_ID=YOUR_DISCORD_CHANNEL_ID
+```
+
+The `start.sh` script runs the Discord Bot in the background and starts the FastAPI server.
+
+---
+
+### Frontend Deployment
+
+The frontend is deployed using **GitHub Pages**.
+
+```text
+Repository Settings → Pages → Deploy from a branch → main branch → Save
+```
+
+After deployment, update the API links in `script.js`:
+
+```javascript
+const API_URL = "https://smart-office-monitor-d41y.onrender.com";
+const ALERTS_URL = "https://smart-office-monitor-d41y.onrender.com/alerts";
+```
 ## Future Improvements
 
 In the future, this system can be improved by adding:
