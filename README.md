@@ -393,7 +393,7 @@ Follow the steps below to set up and run the Smart Office Monitoring System on y
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Smart-Office-Monitor.git
+git clone https://github.com/bappyBDN/Smart-Office-Monitor.git
 cd Smart-Office-Monitor
 ```
 
@@ -418,14 +418,14 @@ source venv/bin/activate
 Install the backend dependencies:
 
 ```bash
-cd backend
+
 pip install -r requirements.txt
 ```
 
 Install the Discord Bot dependencies:
 
 ```bash
-cd ../discord_bot
+
 pip install -r requirements.txt
 ```
 
@@ -445,7 +445,7 @@ BASE_URL=http://127.0.0.1:8000
 Navigate to the backend directory and run:
 
 ```bash
-cd backend
+
 uvicorn main:app --reload
 ```
 
