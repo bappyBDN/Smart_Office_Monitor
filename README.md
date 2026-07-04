@@ -68,7 +68,6 @@ In this simulation, an Arduino Uno is connected with LEDs, a relay module, and s
 
 The simulation uses the Servo library for controlling the servo motors.  
 
-### Wokwi Simulation Link
 
 ## Wokwi Hardware Simulation
 
