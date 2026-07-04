@@ -9,7 +9,25 @@ This project helps users see which devices are ON or OFF, monitor current power 
 ## Demo Video
 
 
-[![Watch Demo Video](https://img.youtube.com/vi/G_YasilfTBQ/maxresdefault.jpg)](https://youtu.be/G_YasilfTBQ)
+## 🎥 Demo Video
+
+<p align="center">
+  <a href="https://youtu.be/G_YasilfTBQ">
+    <img src="https://img.shields.io/badge/▶%20Watch%20Demo%20Video-YouTube-red?style=for-the-badge&logo=youtube" alt="Watch Demo Video">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/G_YasilfTBQ">
+    <img src="https://img.youtube.com/vi/G_YasilfTBQ/maxresdefault.jpg" alt="Smart Office Demo Video" width="850">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/G_YasilfTBQ">
+    <img src="https://img.shields.io/badge/Click%20Here%20to%20Watch-Full%20Demo-red?style=for-the-badge&logo=youtube" alt="Click Here to Watch">
+  </a>
+</p>
 
 
 
