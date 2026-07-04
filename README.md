@@ -308,17 +308,11 @@ After office hours, if any light or fan remains ON, the system will show an acti
 
 ### 5. Discord Bot Reply
 
-![Discord Bot](screenshots/discord-bot.png)
+![Discord Bot](bot.png)
 
 Use this screenshot to show bot commands and AI-generated replies.
 
 
-
-### 6. Demo Running
-
-![Demo Running](screenshots/demo-running.png)
-
-Use this screenshot to show backend, dashboard, and bot working together.
 
 
 
