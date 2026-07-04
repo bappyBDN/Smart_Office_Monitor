@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": -51.6, "left": -101.8, "attrs": { "color": "red" } },
+    { "type": "wokwi-led", "id": "led2", "top": -51.6, "left": -160, "attrs": { "color": "green" } },
+    { "type": "wokwi-led", "id": "led3", "top": -51.6, "left": -220, "attrs": { "color": "blue" } },
+    { "type": "wokwi-resistor", "id": "r1", "top": 13.55, "left": -86.4, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r2", "top": 13.55, "left": -146.4, "attrs": { "value": "220" } },
+    { "type": "wokwi-resistor", "id": "r3", "top": 13.55, "left": -206.4, "attrs": { "value": "220" } },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": -86.2, "left": 86.4, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 209.2, "left": -86.4, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo2", "top": 209.2, "left": 60, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:GND.1", "led1:C", "black", [] ],
+    [ "uno:GND.1", "led2:C", "black", [] ],
+    [ "uno:GND.1", "led3:C", "black", [] ],
+    [ "uno:2", "r1:1", "blue", [] ],
+    [ "r1:2", "led1:A", "blue", [] ],
+    [ "uno:4", "r2:1", "green", [] ],
+    [ "r2:2", "led2:A", "green", [] ],
+    [ "uno:5", "r3:1", "purple", [] ],
+    [ "r3:2", "led3:A", "purple", [] ],
+    [ "uno:5V", "relay1:VCC", "red", [] ],
+    [ "uno:GND.2", "relay1:GND", "black", [] ],
+    [ "uno:3", "relay1:IN", "green", [] ],
+    [ "uno:5V", "servo1:VCC", "red", [] ],
+    [ "uno:GND.3", "servo1:GND", "black", [] ],
+    [ "uno:9", "servo1:PWM", "orange", [] ],
+    [ "uno:5V", "servo2:VCC", "red", [] ],
+    [ "uno:GND.3", "servo2:GND", "black", [] ],
+    [ "uno:10", "servo2:PWM", "orange", [] ]
+  ],
+  "dependencies": {}
+}

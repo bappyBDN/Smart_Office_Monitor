@@ -94,9 +94,9 @@
         "name": "Fan 1",
         "room": "Work Room 2",
         "type": "Fan",
-        "status": "ON",
+        "status": "OFF",
         "power_draw": 60,
-        "last_changed": "2026-07-04T03:58:22.274297"
+        "last_changed": "2026-07-04T05:09:46.962900"
     },
     {
         "id": "WR2_F2",
