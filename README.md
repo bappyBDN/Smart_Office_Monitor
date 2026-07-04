@@ -386,7 +386,7 @@ For example, if a light is left ON after office hours, the system can detect it 
 
 This can reduce electricity waste and make building management easier.
 
-## 🚀 Project Setup
+##  Project Setup
 
 Follow the steps below to set up and run the Smart Office Monitoring System on your local machine.
 
@@ -485,13 +485,13 @@ The bot is now connected to your Discord server and ready to receive commands.
 
 To ensure the project is running correctly:
 
-- ✅ Backend API is accessible.
-- ✅ Dashboard loads successfully in the browser.
-- ✅ Device status updates in real time.
-- ✅ Discord Bot responds to commands.
-- ✅ AI-generated responses are returned using Gemini.
-- ✅ Smart alerts are generated after office hours.
-- ✅ Wokwi hardware simulation operates correctly.
+-  Backend API is accessible.
+-  Dashboard loads successfully in the browser.
+-  Device status updates in real time.
+-  Discord Bot responds to commands.
+-  AI-generated responses are returned using Gemini.
+-  Smart alerts are generated after office hours.
+-  Wokwi hardware simulation operates correctly.
 
 
 ## Future Improvements
