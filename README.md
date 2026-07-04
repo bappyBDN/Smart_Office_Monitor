@@ -314,8 +314,6 @@ Use this screenshot to show bot commands and AI-generated replies.
 
 
 
-
-
 ## Recommended Demo Video Content
 
 Your demo video should show:
