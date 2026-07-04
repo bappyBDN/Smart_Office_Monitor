@@ -530,7 +530,7 @@ The project is deployed online. The **FastAPI backend** and **Discord Bot** run 
 ### Live Links
 
 - **Frontend Dashboard:** [https://bappybdn.github.io/Smart_Office_Monitor/]
-- **Backend API:** [https://smart-office-monitor-d41y.onrender.com]
+
 
 
 
