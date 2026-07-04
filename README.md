@@ -274,7 +274,7 @@ This part uses Gemini AI to convert system data into simple and natural language
 
 ### 1. Web Dashboard
 
-![Dashboard](dashbroad.png)
+![Dashboard](images/dashbroad.png)
 
 Use this screenshot to show the main dashboard with device status, power usage, and room summary.
 
@@ -282,7 +282,7 @@ Use this screenshot to show the main dashboard with device status, power usage, 
 
 ### 3. Device Status
 
-![Device Status](device.png)
+![Device Status](images/device.png)
 
 Use this screenshot to show lights and fans in ON/OFF condition.
 
@@ -298,17 +298,17 @@ The system shows warning messages or active alerts based on office time.
 
 During office hours, no unnecessary alert will be shown because lights and fans may normally be in use.
 
-![No Alerts During Office Time](A2.png)
+![No Alerts During Office Time](images/A2.png)
 
 ### After Office Time
 
 After office hours, if any light or fan remains ON, the system will show an active alert or warning message.
 
-![Active Alerts After Office Time](Alart.png)
+![Active Alerts After Office Time](images/Alart.png)
 
 ### 5. Discord Bot Reply
 
-![Discord Bot](bot.png)
+![Discord Bot](images/bot.png)
 
 Use this screenshot to show bot commands and AI-generated replies.
 
