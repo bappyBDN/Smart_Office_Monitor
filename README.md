@@ -16,7 +16,7 @@ Add your demo video link here:
 
 ## Full System Workflow
 
-![Full Workflow](screenshots/full-workflow.png)
+![Full Workflow](Architecture.png)
 
 This image shows the complete process of the system, from IoT data collection to dashboard monitoring and Discord AI response.
 
