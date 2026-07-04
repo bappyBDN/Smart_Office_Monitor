@@ -386,60 +386,112 @@ For example, if a light is left ON after office hours, the system can detect it 
 
 This can reduce electricity waste and make building management easier.
 
-## Project Setup
+## 🚀 Project Setup
 
-Follow these steps to run the project on your local machine.
+Follow the steps below to set up and run the Smart Office Monitoring System on your local machine.
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/your-username/Smart-Office-Monitor.git
+cd Smart-Office-Monitor
 ```
 
-### 2. Install Required Packages
+### 2. Create a Virtual Environment (Recommended)
 
-Install all required Python libraries.
+**Windows**
 
 ```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+Install the backend dependencies:
+
+```bash
+cd backend
 pip install -r requirements.txt
 ```
 
-### 3. Configure Environment
-
-Update the configuration file with your API keys and Discord Bot Token.
-
-```text
-DISCORD_TOKEN=YOUR_DISCORD_TOKEN
-OPENAI_API_KEY=YOUR_API_KEY
-```
-
-### 4. Run the Backend Server
+Install the Discord Bot dependencies:
 
 ```bash
-python app.py
+cd ../discord_bot
+pip install -r requirements.txt
 ```
 
-### 5. Start the Dashboard
+### 4. Configure Environment Variables
 
-Open your browser and visit:
+Create a `.env` file inside the `discord_bot` folder and add the following configuration:
+
+```env
+DISCORD_TOKEN=YOUR_DISCORD_BOT_TOKEN
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+ALERT_CHANNEL_ID=YOUR_DISCORD_CHANNEL_ID
+BASE_URL=http://127.0.0.1:8000
+```
+
+### 5. Start the Backend Server
+
+Navigate to the backend directory and run:
+
+```bash
+cd backend
+uvicorn main:app --reload
+```
+
+The backend API will be available at:
+
+- **API:** `http://127.0.0.1:8000`
+- **Swagger Docs:** `http://127.0.0.1:8000/docs`
+
+### 6. Launch the Dashboard
+
+Open the `dashboard` folder and run:
 
 ```text
-http://localhost:5000
+index.html
 ```
 
-### 6. Run the Hardware Simulation (Optional)
+Or use **VS Code Live Server** for automatic reloading during development.
 
-Open the Wokwi project and start the simulation.
+### 7. Run the Discord Bot
 
-🔗 https://wokwi.com/projects/468609762088143873
+Open a new terminal and execute:
 
-### 7. Test the System
+```bash
+cd discord_bot
+python bot.py
+```
 
-- Turn ON/OFF devices from the dashboard.
-- Monitor live power consumption.
-- Ask questions through the Discord AI Bot.
-- Observe smart alerts after office hours.
+If the setup is successful, you should see:
+
+```text
+Logged in as Smart Office Bot
+```
+
+The bot is now connected to your Discord server and ready to receive commands.
+
+### 8. Verify the Setup
+
+To ensure the project is running correctly:
+
+- ✅ Backend API is accessible.
+- ✅ Dashboard loads successfully in the browser.
+- ✅ Device status updates in real time.
+- ✅ Discord Bot responds to commands.
+- ✅ AI-generated responses are returned using Gemini.
+- ✅ Smart alerts are generated after office hours.
+- ✅ Wokwi hardware simulation operates correctly.
 
 
 ## Future Improvements
