@@ -386,6 +386,60 @@ For example, if a light is left ON after office hours, the system can detect it 
 
 This can reduce electricity waste and make building management easier.
 
+## Project Setup
+
+Follow these steps to run the project on your local machine.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
+
+### 2. Install Required Packages
+
+Install all required Python libraries.
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Configure Environment
+
+Update the configuration file with your API keys and Discord Bot Token.
+
+```text
+DISCORD_TOKEN=YOUR_DISCORD_TOKEN
+OPENAI_API_KEY=YOUR_API_KEY
+```
+
+### 4. Run the Backend Server
+
+```bash
+python app.py
+```
+
+### 5. Start the Dashboard
+
+Open your browser and visit:
+
+```text
+http://localhost:5000
+```
+
+### 6. Run the Hardware Simulation (Optional)
+
+Open the Wokwi project and start the simulation.
+
+🔗 https://wokwi.com/projects/468571882006007809
+
+### 7. Test the System
+
+- Turn ON/OFF devices from the dashboard.
+- Monitor live power consumption.
+- Ask questions through the Discord AI Bot.
+- Observe smart alerts after office hours.
 
 
 ## Future Improvements
