@@ -187,13 +187,13 @@ Gemini AI converts system data into short, natural, and easy-to-understand repli
 
 ## Important Features
 
-### Live Monitoring
+### 1 Live Monitoring
 
 The system updates automatically after a short time, so the user does not need to refresh the page again and again.
 
 
 
-### Manual Control
+### 2 Manual Control
 
 Users can control lights and fans directly from the dashboard.
 
@@ -201,7 +201,7 @@ This makes the system more practical and interactive.
 
 
 
-### Power Usage Calculation
+### 3 Power Usage Calculation
 
 The system calculates how much power is being used based on the devices that are currently ON.
 
@@ -209,7 +209,7 @@ This helps users understand electricity consumption clearly.
 
 
 
-### Room-Wise Summary
+### 4 Room-Wise Summary
 
 The dashboard shows power usage room by room.
 
@@ -217,7 +217,7 @@ This helps users quickly identify which room is using more electricity.
 
 
 
-### Smart Alerts
+### 5 Smart Alerts
 
 The system creates alerts when something unusual happens.
 
@@ -230,7 +230,7 @@ This helps users identify unnecessary electricity usage.
 
 
 
-### AI-Based Discord Reply
+### 6 AI-Based Discord Reply
 
 The Discord bot does not only show raw data.
 
