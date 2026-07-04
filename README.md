@@ -9,7 +9,7 @@ This project helps users see which devices are ON or OFF, monitor current power 
 ## Demo Video
 
 
-## 🎥 Demo Video
+## Demo Video
 
 <p align="center">
   <a href="https://youtu.be/G_YasilfTBQ">
@@ -23,11 +23,7 @@ This project helps users see which devices are ON or OFF, monitor current power 
   </a>
 </p>
 
-<p align="center">
-  <a href="https://youtu.be/G_YasilfTBQ">
-    <img src="https://img.shields.io/badge/Click%20Here%20to%20Watch-Full%20Demo-red?style=for-the-badge&logo=youtube" alt="Click Here to Watch">
-  </a>
-</p>
+
 
 
 
