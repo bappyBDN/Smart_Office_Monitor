@@ -2,7 +2,7 @@
 
 A simple real-time system for monitoring and controlling office lights and fans.
 
-This project helps users see which devices are ON or OFF, check current power usage, control devices from a web dashboard, and receive smart alerts through a Discord AI bot.
+This project helps users see which devices are ON or OFF, monitor current power usage, control devices from a dashboard, and receive smart alerts through a Discord AI bot.
 
 ---
 
@@ -61,17 +61,17 @@ The system follows five main steps.
 
 ### Step 1: Data Collection
 
-Device data can come from IoT hardware or a demo simulator.
+Device data comes from IoT hardware or a demo simulator.
 
-In a real system, this data can come from devices like ESP32 or Wokwi simulation.
+In real life, this data can come from devices like ESP32 or Wokwi simulation.
 
-For the demo version, a simulator creates realistic device activity based on office hours.
+For the demo version, a simulator creates realistic device activity.
 
 ---
 
 ### Step 2: Data Storage
 
-All device information is stored in a simple JSON data file.
+All device information is stored in a simple data file.
 
 The stored information includes:
 
@@ -92,7 +92,7 @@ The backend works as the brain of the system.
 
 It receives requests, reads device information, updates device status, checks alert rules, and sends clean data to the dashboard and Discord bot.
 
-The backend also handles data safely when multiple parts of the system try to update the device data at the same time.
+The backend also makes sure data is handled safely when multiple parts of the system are working at the same time.
 
 ---
 
@@ -103,19 +103,17 @@ The dashboard shows the current building condition visually.
 Users can see:
 
 - Live connection status
-- Current total power usage
-- Estimated power cost for demo purpose
+- Total power usage
+- Estimated power cost (Demo)
 - Room-wise usage
 - Device status
 - Active alerts
 
 Users can also click on a fan or light to turn it ON or OFF.
 
-The dashboard updates automatically every 2 seconds.
-
 ---
 
-### Step 5: Discord Bot and Gemini AI
+### Step 5: Discord AI Bot
 
 The Discord bot helps users check the building status through simple commands.
 
@@ -123,28 +121,10 @@ The bot can answer questions like:
 
 - What is the current status?
 - Which devices are ON?
-- What is the current usage?
+- What is the usage?
 - What is happening in a specific room?
 
-Gemini AI makes the answer more natural, short, and easy to understand.
-
----
-
-## System Workflow in Simple Words
-
-First, the system collects device data from the simulator or IoT-ready source.
-
-Then, it stores the data safely.
-
-After that, the backend processes the data and checks alert rules.
-
-The dashboard updates automatically every 2 seconds and shows the live result.
-
-If the user clicks a device, the system updates the device status.
-
-If any device creates a problem, the system generates an alert.
-
-The Discord bot can also collect the same data and explain it in simple language using Gemini AI.
+Gemini AI converts system data into short, natural, and easy-to-understand replies.
 
 ---
 
@@ -152,7 +132,7 @@ The Discord bot can also collect the same data and explain it in simple language
 
 ### Live Monitoring
 
-The system updates automatically, so the user does not need to refresh the page again and again.
+The system updates automatically after a short time, so the user does not need to refresh the page again and again.
 
 ---
 
@@ -164,7 +144,7 @@ This makes the system more practical and interactive.
 
 ---
 
-### Current Power Usage Calculation
+### Power Usage Calculation
 
 The system calculates how much power is being used based on the devices that are currently ON.
 
@@ -212,7 +192,7 @@ This project can help to:
 - Make office management smarter
 - Provide remote updates through Discord
 - Help non-technical users understand device status
-- Demonstrate an IoT-ready architecture with web dashboard, backend, and AI
+- Demonstrate an IoT-ready architecture using a web dashboard, backend, and AI
 
 ---
 
@@ -286,26 +266,7 @@ It also sends alert messages when needed.
 
 ### 5. Gemini AI Layer
 
-This part converts system data into simple and natural language replies.
-
----
-
-## Project Structure
-
-```txt
-Smart-Building-Management-System
-│
-├── main.py
-├── bot.py
-├── data.json
-├── index.html
-├── script.js
-├── style.css
-├── requirements.txt
-├── Architecture.png
-├── README.md
-└── screenshots/
-```
+This part uses Gemini AI to convert system data into simple and natural language replies.
 
 ---
 
@@ -315,7 +276,7 @@ Add your screenshots in a folder named `screenshots`.
 
 ### 1. Full Workflow Diagram
 
-![Full Workflow](Architecture.png)
+![Full Workflow](screenshots/full-workflow.png)
 
 Use this screenshot to show the complete system process.
 
@@ -377,87 +338,21 @@ Your demo video should show:
 
 ---
 
-## How to Run the Project
+## Project Workflow in Simple Words
 
-### Step 1: Install Requirements
+First, the system collects device data.
 
-Install all required Python packages from the requirements file.
+Then, it stores the data safely.
 
-```txt
-pip install -r requirements.txt
-```
+After that, the backend processes the data.
 
-### Step 2: Run the Backend
+The dashboard updates automatically and shows the latest device status.
 
-Start the FastAPI backend server.
+If the user clicks a device, the system updates the status.
 
-```txt
-uvicorn main:app --reload
-```
+If any device creates a problem, the system generates an alert.
 
-After running, the backend will be available at:
-
-```txt
-http://127.0.0.1:8000
-```
-
-### Step 3: Open the Dashboard
-
-Open the dashboard file in a browser.
-
-Recommended option:
-
-```txt
-Open index.html using VS Code Live Server
-```
-
-### Step 4: Run the Discord Bot
-
-Start the Discord bot.
-
-```txt
-python bot.py
-```
-
----
-
-## API Overview
-
-The backend provides these main API routes:
-
-| Method | API Route | Purpose |
-|---|---|---|
-| GET | `/api/devices` | Shows all devices and their current status |
-| POST | `/api/devices/{device_id}/toggle` | Turns a device ON or OFF |
-| GET | `/api/alerts` | Shows active alerts |
-| GET | `/api/room/{room_name}` | Shows room-wise summary |
-
----
-
-## Discord Bot Commands
-
-| Command | Purpose |
-|---|---|
-| `!status` | Shows current building status |
-| `!room room_name` | Shows status of a specific room |
-| `!usage` | Shows current power usage |
-| `!testalert` | Sends a test alert message |
-
----
-
-## Environment Setup
-
-To use the Discord bot and Gemini AI, create a `.env` file and add your private keys.
-
-Required values:
-
-```txt
-DISCORD_TOKEN=your_discord_bot_token
-GEMINI_API_KEY=your_gemini_api_key
-ALERT_CHANNEL_ID=your_discord_alert_channel_id
-```
-
-Do not upload this `.env` file to GitHub.
+The Discord bot can also collect the same data and explain it in simple language using AI.
 
 ---
 
@@ -469,7 +364,7 @@ It does not only show data. It helps users take action.
 
 For example, if a light is left ON after office hours, the system can detect it and send an alert.
 
-This can help reduce electricity waste and make building management easier.
+This can reduce electricity waste and make building management easier.
 
 ---
 
@@ -478,13 +373,13 @@ This can help reduce electricity waste and make building management easier.
 In the future, this system can be improved by adding:
 
 - Real ESP32 hardware connection
-- User login system
 - Mobile app
-- More rooms and devices
-- Replace JSON storage with a cloud database
+- User login system
+- Voice command
 - Email alert
 - SMS alert
-- Voice command support
+- More rooms and devices
+- Replace JSON storage with a cloud database
 
 ---
 
@@ -492,7 +387,7 @@ In the future, this system can be improved by adding:
 
 The Smart Building Management System is a complete real-time monitoring and control system.
 
-It helps users manage lights and fans, identify unnecessary electricity usage, and understand building status easily.
+It helps users manage lights and fans, reduce energy waste, and understand building status easily.
 
 The project combines IoT-ready data flow, backend processing, web dashboard, Discord bot, and AI response in one practical system.
 
@@ -502,6 +397,4 @@ The project combines IoT-ready data flow, backend processing, web dashboard, Dis
 
 Developed by: Team_Zero
 
----
-
-## Thank You
+## THANK YOU
