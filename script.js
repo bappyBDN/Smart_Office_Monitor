@@ -1,5 +1,5 @@
-const API_URL = "http://127.0.0.1:8000/api/devices";
-const ALERTS_URL = "http://127.0.0.1:8000/api/alerts";
+const API_URL = "https://smart-office-monitor-d41y.onrender.com/api/devices";//API_URL = "http://127.0.0.1:8000/api/devices";
+const ALERTS_URL = "https://smart-office-monitor-d41y.onrender.com/api/alerts";//ALERTS_URL = "http://127.0.0.1:8000/api/alerts";
 const RATE_PER_KWH = 12.73;
 
 const devicePositions = {
