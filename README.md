@@ -469,7 +469,7 @@ Or use **VS Code Live Server** for automatic reloading during development.
 Open a new terminal and execute:
 
 ```bash
-cd discord_bot
+
 python bot.py
 ```
 
