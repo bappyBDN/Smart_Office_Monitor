@@ -319,7 +319,7 @@ Use this screenshot to show lights and fans in ON/OFF condition.
 
 ### 4. Alert Section
 
-## Alert System Preview
+### Alert System Preview
 
 The system shows warning messages or active alerts based on office time.
 
