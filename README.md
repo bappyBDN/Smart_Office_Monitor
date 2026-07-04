@@ -16,13 +16,6 @@ This project helps users see which devices are ON or OFF, monitor current power 
   </a>
 </p>
 
-<p align="center">
-  <a href="https://youtu.be/G_YasilfTBQ">
-    <img src="https://img.youtube.com/vi/G_YasilfTBQ/maxresdefault.jpg" alt="Smart Office Demo Video" width="850">
-  </a>
-</p>
-
-
 
 
 
