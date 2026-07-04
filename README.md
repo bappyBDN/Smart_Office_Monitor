@@ -298,13 +298,13 @@ The system shows warning messages or active alerts based on office time.
 
 During office hours, no unnecessary alert will be shown because lights and fans may normally be in use.
 
-![No Alerts During Office Time](screenshots/A2.png)
+![No Alerts During Office Time](A2.png)
 
 ### After Office Time
 
 After office hours, if any light or fan remains ON, the system will show an active alert or warning message.
 
-![Active Alerts After Office Time](screenshots/Alart.png)
+![Active Alerts After Office Time](Alart.png)
 
 ### 5. Discord Bot Reply
 
