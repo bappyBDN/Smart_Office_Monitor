@@ -44,7 +44,7 @@ This image shows the complete process of the system, from IoT-ready data collect
 
 This project also includes a Wokwi-based hardware simulation to show how the smart building system can work with real IoT devices.
 
-In this simulation, an Arduino Uno is connected with LEDs, a relay module, and servo motors. The LEDs can represent device status, the relay can be used for switching electrical appliances, and the servo motors can represent automated control actions such as opening or closing a door/ventilation system.
+In this hardware simulation, we use an Arduino Uno to demonstrate a smart office with three rooms. The LEDs represent the ON/OFF status of the lights in each room, while the servo motors represent the fans. This is a demo simulation, but in the future it can be easily integrated with real IoT devices to control and monitor an actual smart building in real time.
 
 ![Wokwi Circuit Diagram](wokwi/workwi-ckt.png)
 
