@@ -398,8 +398,6 @@ The project combines IoT-style data, backend processing, web dashboard, Discord 
 
 ## Author
 
-Developed by: YOUR_NAME_HERE
+Developed by: Team_Zero
 
-GitHub: YOUR_GITHUB_LINK_HERE
-
-LinkedIn: YOUR_LINKEDIN_LINK_HERE
+## THANK YOU....
