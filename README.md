@@ -19,51 +19,6 @@ Add your demo video link here:
 ![Full Workflow](Architecture.png)
 
 This image shows the complete process of the system, from IoT data collection to dashboard monitoring and Discord AI response.
-## System Workflow (Simple Explanation)
-
-### Step 1: Data Layer (IoT & Database)
-
-All device information is stored in **data.json**, including device status (ON/OFF), power usage, and the last updated time.
-
-Data comes from **ESP32/Wokwi** in a real system. For this demo, a built-in simulator generates realistic device activity based on office hours.
-
-To prevent data corruption when multiple processes update the file at the same time, the system uses safe data locking.
-
----
-
-### Step 2: Backend (FastAPI)
-
-The FastAPI backend is the **brain of the system**.
-
-It reads device data, updates device status, checks alert rules, and provides clean APIs for the dashboard and Discord bot.
-
-The backend automatically detects situations like:
-- Devices left ON after office hours
-- Devices running for too long
-
----
-
-### Step 3: Web Dashboard
-
-The dashboard refreshes every **2 seconds** to show the latest device status.
-
-It displays:
-- Live ON/OFF status
-- Total power usage
-- Active alerts
-- Room-wise information
-
-Users can also click any device to turn it ON or OFF instantly.
-
----
-
-### Step 4: Discord Bot & Gemini AI
-
-The Discord bot collects live data from the backend.
-
-When users ask for status or power usage, **Gemini AI** converts the raw data into simple, natural English responses.
-
-The bot also checks for alerts regularly and automatically sends warning messages to the Discord alert channel.
 ---
 
 ## What This Project Does
@@ -111,7 +66,7 @@ In real life, this data can come from devices like ESP32 or Wokwi simulation.
 
 For the demo version, a simulator creates realistic device activity.
 
----
+
 
 ### Step 2: Data Storage
 
@@ -128,7 +83,7 @@ The stored information includes:
 
 This works like the main memory of the system.
 
----
+
 
 ### Step 3: Backend Processing
 
@@ -138,7 +93,7 @@ It receives requests, reads device information, updates device status, checks al
 
 The backend also makes sure data is handled safely when multiple parts of the system are working at the same time.
 
----
+
 
 ### Step 4: Web Dashboard
 
@@ -155,7 +110,7 @@ Users can see:
 
 Users can also click on a fan or light to turn it ON or OFF.
 
----
+
 
 ### Step 5: Discord AI Bot
 
