@@ -4,7 +4,7 @@ A simple real-time system for monitoring and controlling office lights and fans.
 
 This project helps users see which devices are ON or OFF, check power usage, control devices from a dashboard, and receive smart alerts through a Discord AI bot.
 
----
+
 
 ## Demo Video
 
@@ -12,14 +12,14 @@ Add your demo video link here:
 
 [Watch Demo Video](YOUR_DEMO_VIDEO_LINK_HERE)
 
----
+
 
 ## Full System Workflow
 
 ![Full Workflow](Architecture.png)
 
 This image shows the complete process of the system, from IoT data collection to dashboard monitoring and Discord AI response.
----
+--
 
 ## What This Project Does
 
@@ -36,7 +36,7 @@ It can:
 - Send alerts when devices are left ON
 - Reply to users through a Discord AI bot
 
----
+
 
 ## Main Idea
 
@@ -52,7 +52,7 @@ Users can quickly understand:
 - Whether any alert has been generated
 - How much power is currently being used
 
----
+
 
 ## How the System Works
 
@@ -125,7 +125,7 @@ The bot can answer questions like:
 
 The AI makes the answer more natural and easy to understand.
 
----
+
 
 ## Important Features
 
@@ -133,7 +133,7 @@ The AI makes the answer more natural and easy to understand.
 
 The system updates automatically after a short time, so the user does not need to refresh the page again and again.
 
----
+
 
 ### Manual Control
 
@@ -141,7 +141,7 @@ Users can control lights and fans directly from the dashboard.
 
 This makes the system more practical and interactive.
 
----
+
 
 ### Power Usage Calculation
 
@@ -149,7 +149,7 @@ The system calculates how much power is being used based on the devices that are
 
 This helps users understand electricity consumption clearly.
 
----
+
 
 ### Room-Wise Summary
 
@@ -157,7 +157,7 @@ The dashboard shows power usage room by room.
 
 This helps users quickly identify which room is using more electricity.
 
----
+
 
 ### Smart Alerts
 
@@ -170,7 +170,7 @@ For example:
 
 This helps reduce waste and improves building management.
 
----
+
 
 ### AI-Based Discord Reply
 
@@ -178,7 +178,7 @@ The Discord bot does not only show raw data.
 
 It gives short, friendly, and human-like replies so that anyone can understand the building status easily.
 
----
+
 
 ## Benefits of This Project
 
@@ -194,7 +194,7 @@ This project can help to:
 - Help non-technical users understand device status
 - Demonstrate IoT, web dashboard, backend, and AI together
 
----
+
 
 ## Who Can Use This System
 
@@ -209,7 +209,7 @@ This system can be useful for:
 - Research projects
 - IoT-based automation demos
 
----
+
 
 ## Technologies Used
 
@@ -222,7 +222,7 @@ This system can be useful for:
 - Gemini AI
 - JSON data storage
 
----
+
 
 ## Main Parts of the Project
 
@@ -238,7 +238,7 @@ It keeps track of:
 - Power usage
 - Last update time
 
----
+
 
 ### 2. Backend Layer
 
@@ -246,7 +246,7 @@ This part processes all requests.
 
 It connects the data layer with the dashboard and Discord bot.
 
----
+
 
 ### 3. Dashboard Layer
 
@@ -254,7 +254,7 @@ This is the visual part of the project.
 
 Users can monitor and control the system from here.
 
----
+
 
 ### 4. Discord Bot Layer
 
@@ -262,13 +262,13 @@ This part allows users to get updates from Discord.
 
 It also sends alert messages when needed.
 
----
+
 
 ### 5. AI Layer
 
 This part uses Gemini AI to convert system data into simple natural language.
 
----
+
 
 ## Screenshots
 
@@ -280,7 +280,7 @@ Add your screenshots in a folder named `screenshots`.
 
 Use this screenshot to show the complete system process.
 
----
+
 
 ### 2. Web Dashboard
 
@@ -288,7 +288,7 @@ Use this screenshot to show the complete system process.
 
 Use this screenshot to show the main dashboard with device status, power usage, and room summary.
 
----
+
 
 ### 3. Device Status
 
@@ -296,7 +296,7 @@ Use this screenshot to show the main dashboard with device status, power usage, 
 
 Use this screenshot to show lights and fans in ON/OFF condition.
 
----
+
 
 ### 4. Alert Section
 
@@ -304,7 +304,7 @@ Use this screenshot to show lights and fans in ON/OFF condition.
 
 Use this screenshot to show warning messages or active alerts.
 
----
+
 
 ### 5. Discord Bot Reply
 
@@ -312,7 +312,7 @@ Use this screenshot to show warning messages or active alerts.
 
 Use this screenshot to show bot commands and AI-generated replies.
 
----
+
 
 ### 6. Demo Running
 
@@ -320,7 +320,7 @@ Use this screenshot to show bot commands and AI-generated replies.
 
 Use this screenshot to show backend, dashboard, and bot working together.
 
----
+
 
 ## Recommended Demo Video Content
 
@@ -336,7 +336,6 @@ Your demo video should show:
 8. AI reply from the bot
 9. Final explanation of benefits
 
----
 
 ## Project Workflow in Simple Words
 
@@ -354,7 +353,7 @@ If any device creates a problem, the system generates an alert.
 
 The Discord bot can also collect the same data and explain it in simple language using AI.
 
----
+
 
 ## Why This Project Is Useful
 
@@ -366,7 +365,7 @@ For example, if a light is left ON after office hours, the system can detect it 
 
 This can reduce electricity waste and make building management easier.
 
----
+
 
 ## Future Improvements
 
@@ -384,7 +383,7 @@ In the future, this system can be improved by adding:
 - Cloud database
 - Historical usage graph
 
----
+
 
 ## Conclusion
 
@@ -394,7 +393,7 @@ It helps users manage lights and fans, reduce energy waste, and understand build
 
 The project combines IoT-style data, backend processing, web dashboard, Discord bot, and AI response in one practical system.
 
----
+
 
 ## Author
 
