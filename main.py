@@ -88,23 +88,19 @@ async def toggle_device(device_id: str):
     return {"error": "Device not found"}
 
 # --- New: Backend Alerts API ---
+# --- New: Backend Alerts API ---
 @app.get("/api/alerts")
 async def get_alerts():
-    """
-    Single source of truth for alert logic. Both the dashboard and the
-    Discord bot read from this endpoint so they can never disagree.
-    Each alert is a structured object with its own timestamp (the moment
-    the alert was detected), not just a raw string.
-    """
     devices = await read_data_safe()
     alerts = []
     now = datetime.now()
     current_hour = now.hour
     is_after_hours = current_hour < 9 or current_hour >= 17
-    seen = set()  # de-dupe by (device_id, rule) instead of by message text
+    seen = set()
 
     for d in devices:
-        if d["status"] != "ON":
+        # সেফটি চেক: স্ট্যাটাস ON না থাকলে স্কিপ করবে
+        if d.get("status") != "ON":
             continue
 
         # Rule 1: still ON after office hours
@@ -122,8 +118,11 @@ async def get_alerts():
                 })
 
         # Rule 2: ON continuously for 2+ hours
-        last_changed = datetime.fromisoformat(d["last_changed"])
+        # FIX: 'last_changed' না থাকলে যেন ক্র্যাশ না করে তার জন্য সেফটি ফলব্যাক .get()
+        last_changed_str = d.get("last_changed", now.isoformat())
+        last_changed = datetime.fromisoformat(last_changed_str)
         hours_on = (now - last_changed).total_seconds() / 3600
+        
         if hours_on >= 2:
             key = (d["id"], "long_running")
             if key not in seen:
