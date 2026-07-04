@@ -19,7 +19,8 @@ if not _raw_channel_id or not _raw_channel_id.strip().isdigit():
     )
 ALERT_CHANNEL_ID = int(_raw_channel_id.strip())
 
-BASE_URL = "http://127.0.0.1:8000"
+#BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://smart-office-monitor-d41y.onrender.com"
 
 # Gemini Setup
 genai.configure(api_key=GEMINI_API_KEY)
