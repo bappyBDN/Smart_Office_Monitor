@@ -274,11 +274,11 @@ This part uses Gemini AI to convert system data into simple and natural language
 
 ### 1. Web Dashboard
 
-![Dashboard](screenshots/2no.)
+![Dashboard](screenshots/dashbroad.png)
 
 Use this screenshot to show the main dashboard with device status, power usage, and room summary.
 
----
+
 
 ### 3. Device Status
 
@@ -286,15 +286,25 @@ Use this screenshot to show the main dashboard with device status, power usage, 
 
 Use this screenshot to show lights and fans in ON/OFF condition.
 
----
+
 
 ### 4. Alert Section
 
-![Alerts](screenshots/alerts-section.png)
+## Alert System Preview
 
-Use this screenshot to show warning messages or active alerts.
+The system shows warning messages or active alerts based on office time.
 
----
+### Office Time: 9:00 AM – 5:00 PM
+
+During office hours, no unnecessary alert will be shown because lights and fans may normally be in use.
+
+![No Alerts During Office Time](screenshots/A2.png)
+
+### After Office Time
+
+After office hours, if any light or fan remains ON, the system will show an active alert or warning message.
+
+![Active Alerts After Office Time](screenshots/Alart.png)
 
 ### 5. Discord Bot Reply
 
@@ -302,7 +312,7 @@ Use this screenshot to show warning messages or active alerts.
 
 Use this screenshot to show bot commands and AI-generated replies.
 
----
+
 
 ### 6. Demo Running
 
@@ -310,7 +320,7 @@ Use this screenshot to show bot commands and AI-generated replies.
 
 Use this screenshot to show backend, dashboard, and bot working together.
 
----
+
 
 ## Recommended Demo Video Content
 
@@ -326,7 +336,6 @@ Your demo video should show:
 8. AI reply from the bot
 9. Final explanation of benefits
 
----
 
 ## Project Workflow in Simple Words
 
@@ -344,7 +353,7 @@ If any device creates a problem, the system generates an alert.
 
 The Discord bot can also collect the same data and explain it in simple language using AI.
 
----
+
 
 ## Why This Project Is Useful
 
@@ -356,7 +365,7 @@ For example, if a light is left ON after office hours, the system can detect it 
 
 This can reduce electricity waste and make building management easier.
 
----
+
 
 ## Future Improvements
 
@@ -371,7 +380,7 @@ In the future, this system can be improved by adding:
 - More rooms and devices
 - Replace JSON storage with a cloud database
 
----
+
 
 ## Conclusion
 
@@ -381,7 +390,7 @@ It helps users manage lights and fans, reduce energy waste, and understand build
 
 The project combines IoT-ready data flow, backend processing, web dashboard, Discord bot, and AI response in one practical system.
 
----
+
 
 ## Author
 
