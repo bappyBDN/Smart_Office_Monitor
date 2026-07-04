@@ -6,19 +6,21 @@ This project helps users see which devices are ON or OFF, monitor current power 
 
 ## Live Deployment
 
-**Try the Smart Office Monitoring Dashboard online:**
+**Experience the Smart Office Monitoring Dashboard by clicking the button below:**
 
 
 <p align="center">
   <a href="https://bappybdn.github.io/Smart_Office_Monitor/">
-    <img src="https://img.shields.io/badge/🌐%20Open%20Live%20Demo-GitHub%20Pages-success?style=for-the-badge" alt="Live Demo">
+    <img src="https://img.shields.io/badge/🌐%20Open%20Live%20Demo-GitHub%20Pages-success?style=for-the-badge"
+         alt="Live Demo"
+         height="60">
   </a>
 </p>
 
 
 ## Demo Video
 
-
+**Experience the Smart Office Monitoring demo video by clicking the button below:**
 
 <p align="center">
   <a href="https://youtu.be/G_YasilfTBQ">
@@ -70,7 +72,7 @@ The simulation uses the Servo library for controlling the servo motors.
 
 
 ## Wokwi Hardware Simulation
-
+**Experience the Wokwi Hardware Simulation by clicking the button below:**
 <p align="center">
   <a href="https://wokwi.com/projects/468609762088143873">
     <img src="https://img.shields.io/badge/▶%20Run%20Wokwi%20Simulation-Wokwi-blue?style=for-the-badge" alt="Run Wokwi Simulation">
