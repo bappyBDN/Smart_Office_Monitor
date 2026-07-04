@@ -9,7 +9,6 @@ This project helps users see which devices are ON or OFF, monitor current power 
 ## Demo Video
 
 
-## Demo Video
 
 <p align="center">
   <a href="https://youtu.be/G_YasilfTBQ">
