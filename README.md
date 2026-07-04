@@ -4,6 +4,17 @@ A simple real-time system for monitoring and controlling office lights and fans.
 
 This project helps users see which devices are ON or OFF, monitor current power usage, control devices from a dashboard, and receive smart alerts through a Discord AI bot.
 
+## Live Deployment
+
+**Try the Smart Office Monitoring Dashboard online:**
+
+**🔗 https://bappybdn.github.io/Smart_Office_Monitor/**
+
+<p align="center">
+  <a href="https://bappybdn.github.io/Smart_Office_Monitor/">
+    <img src="https://img.shields.io/badge/🌐%20Open%20Live%20Demo-GitHub%20Pages-success?style=for-the-badge" alt="Live Demo">
+  </a>
+</p>
 
 
 ## Demo Video
@@ -60,7 +71,7 @@ The simulation uses the Servo library for controlling the servo motors.
 
 ### Wokwi Simulation Link
 
-## ⚙️ Wokwi Hardware Simulation
+## Wokwi Hardware Simulation
 
 <p align="center">
   <a href="https://wokwi.com/projects/468609762088143873">
