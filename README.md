@@ -1,4 +1,4 @@
-# Smart Building Management System
+# Smart Office Monitor
 
 A simple real-time system for monitoring and controlling office lights and fans.
 
@@ -518,8 +518,8 @@ The project is deployed online. The **FastAPI backend** and **Discord Bot** run 
 
 ### Live Links
 
-- **Frontend Dashboard:** [Insert your GitHub Pages link here]
-- **Backend API:** https://smart-office-monitor-d41y.onrender.com
+- **Frontend Dashboard:** [https://bappybdn.github.io/Smart_Office_Monitor/]
+- **Backend API:** [https://smart-office-monitor-d41y.onrender.com]
 
 
 
