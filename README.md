@@ -50,7 +50,7 @@ The simulation uses the Servo library for controlling the servo motors.
 
 ### Wokwi Simulation Link
 
-[Run the Wokwi Simulation](https://wokwi.com/projects/468571882006007809](https://wokwi.com/projects/468571882006007809))
+[Run the Wokwi Simulation](https://wokwi.com/projects/468571882006007809)
 
 ## What This Project Does
 
