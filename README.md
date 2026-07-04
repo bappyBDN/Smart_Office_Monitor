@@ -8,7 +8,6 @@ This project helps users see which devices are ON or OFF, monitor current power 
 
 **Try the Smart Office Monitoring Dashboard online:**
 
-**🔗 https://bappybdn.github.io/Smart_Office_Monitor/**
 
 <p align="center">
   <a href="https://bappybdn.github.io/Smart_Office_Monitor/">
