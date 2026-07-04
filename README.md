@@ -62,7 +62,20 @@ The simulation uses the Servo library for controlling the servo motors.
 
 ### Wokwi Simulation Link
 
-[Run the Wokwi Simulation](https://wokwi.com/projects/468609762088143873)
+## ⚙️ Wokwi Hardware Simulation
+
+<p align="center">
+  <a href="https://wokwi.com/projects/468609762088143873">
+    <img src="https://img.shields.io/badge/▶%20Run%20Wokwi%20Simulation-Wokwi-blue?style=for-the-badge" alt="Run Wokwi Simulation">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://wokwi.com/projects/468609762088143873">
+    <img src="screenshots/wokwi-circuit.png" alt="Wokwi Circuit Simulation" width="850">
+  </a>
+</p>
+
 
 ## What This Project Does
 
